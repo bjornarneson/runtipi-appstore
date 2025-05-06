@@ -25,8 +25,8 @@
     {
       "type": "password",
       "label": "Password for the initial superuser",
-      "max": 40,
-      "min": 40,
+      "max": 50,
+      "min": 8,
       "required": true,
       "env_variable": "LD_SUPERUSER_PASSWORD"
     }
