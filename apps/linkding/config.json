@@ -1,0 +1,18 @@
+{
+  "name": "linkding",
+  "available": true,
+  "port": 9090,
+  "exposable": true,
+  "dynamic_config": true,
+  "id": "linkding",
+  "description": "Self-hosted bookmark manager that is designed be to be minimal, fast, and easy to set up using Docker.",
+  "tipi_version": 1,
+  "version": "1.39.1",
+  "categories": ["utilities"],
+  "short_desc": "Self-hosted bookmark manager.",
+  "author": "sissbruecker",
+  "source": "https://github.com/sissbruecker/linkding",
+  "website": "https://linkding.link/",
+  "form_fields": [],
+  "supported_architectures": ["arm64", "amd64"]
+}
