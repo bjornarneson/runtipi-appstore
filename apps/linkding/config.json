@@ -16,7 +16,7 @@
   "website": "https://linkding.link/",
   "form_fields": [
     {
-      "type": "username",
+      "type": "text",
       "label": "Username of the initial superuser",
       "max": 50,
       "min": 3,
