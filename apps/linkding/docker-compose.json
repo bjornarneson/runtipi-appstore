@@ -1,7 +1,7 @@
 {
   "services": [
     {
-      "name": "${LD_CONTAINER_NAME:-linkding}",
+      "name": "linkding",
       "image": "sissbruecker/linkding:1.39.1",
       "internalPort": 9090,
       "volumes": [
