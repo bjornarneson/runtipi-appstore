@@ -3,17 +3,14 @@
     {
       "name": "linkding",
       "image": "sissbruecker/linkding:1.39.1",
+      "isMain": true,
       "internalPort": 9090,
       "volumes": [
         {
           "hostPath": "${APP_DATA_DIR}/data}",
-          "containerPath": "/etc/linkding/data",
-          "readOnly": false,
-          "shared": false,
-          "private": false
+          "containerPath": "/etc/linkding/data"
         }
       ],
-      "isMain": true,
       "environment": {
         "LD_SUPERUSER_NAME": "${LD_SUPERUSER_NAME}",
         "LD_SUPERUSER_PASSWORD": "${LD_SUPERUSER_PASSWORD}"
