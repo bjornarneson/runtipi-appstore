@@ -13,6 +13,22 @@
   "author": "sissbruecker",
   "source": "https://github.com/sissbruecker/linkding",
   "website": "https://linkding.link/",
-  "form_fields": [],
-  "supported_architectures": ["arm64", "amd64"]
+  "form_fields": [
+    {
+      "type": "username",
+      "label": "Username of the initial superuser",
+      "max": 50,
+      "min": 3,
+      "required": true,
+      "env_variable": "LD_SUPERUSER_NAME"
+    },
+    {
+      "type": "password",
+      "label": "Password for the initial superuser",
+      "max": 40,
+      "min": 40,
+      "required": true,
+      "env_variable": "LD_SUPERUSER_PASSWORD"
+    }
+  ],  "supported_architectures": ["arm64", "amd64"]
 }
