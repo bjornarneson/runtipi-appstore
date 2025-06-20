@@ -3,7 +3,7 @@
   "services": [
     {
       "name": "linkding",
-      "image": "sissbruecker/linkding:1.40.0",
+      "image": "sissbruecker/linkding:1.41.0",
       "isMain": true,
       "internalPort": 9090,
       "volumes": [
