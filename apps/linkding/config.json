@@ -8,6 +8,7 @@
   "id": "linkding",
   "description": "Self-hosted bookmark manager that is designed be to be minimal, fast, and easy to set up using Docker.",
   "tipi_version": 5,
+  "min_tipi_version": "4.5.0",
   "version": "1.44.1",
   "categories": ["utilities"],
   "short_desc": "Self-hosted bookmark manager.",
