@@ -13,10 +13,10 @@
           "containerPath": "/etc/linkding/data"
         }
       ],
-      "environment": {
-        "LD_SUPERUSER_NAME": "${LD_SUPERUSER_NAME}",
-        "LD_SUPERUSER_PASSWORD": "${LD_SUPERUSER_PASSWORD}"
-      }
+      "environment": [
+        {"key": "LD_SUPERUSER_NAME", "value":"${LD_SUPERUSER_NAME}"},
+        {"key": "LD_SUPERUSER_PASSWORD", "value":"${LD_SUPERUSER_PASSWORD}"}
+      ]
     }
   ]
 }
