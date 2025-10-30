@@ -23,7 +23,7 @@
       ],
       "volumes": [
         {
-          "hostPath": "${APP_DATA_DIR}/data/huginn/mysql",
+          "hostPath": "${APP_DATA_DIR}/data",
           "containerPath": "/var/lib/mysql"
         }
       ]
