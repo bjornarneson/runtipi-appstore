@@ -13,8 +13,14 @@
         }
       ],
       "environment": [
-        {"key": "LD_SUPERUSER_NAME", "value":"${LD_SUPERUSER_NAME}"},
-        {"key": "LD_SUPERUSER_PASSWORD", "value":"${LD_SUPERUSER_PASSWORD}"}
+        {
+          "key": "LD_SUPERUSER_NAME", 
+          "value":"${LD_SUPERUSER_NAME}"
+        },
+        {
+          "key": "LD_SUPERUSER_PASSWORD", 
+          "value":"${LD_SUPERUSER_PASSWORD}"
+        }
       ]
     }
   ]
