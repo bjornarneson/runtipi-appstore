@@ -1,0 +1,21 @@
+{
+  "$schema": "../app-info-schema.json",
+  "name": "Huginn",
+  "port": 9077,
+  "available": true,
+  "exposable": true,
+  "dynamic_config": true,
+  "id": "huginn",
+  "tipi_version": 1,
+  "version": "latest",
+  "categories": ["utilities"],
+  "description": "Allows you to build agents that monitor and act on your behalf.",
+  "short_desc": "Allows you to build agents that monitor and act on your behalf.",
+  "author": "Huginn",
+  "source": "https://github.com/huginn/huginn",
+  "form_fields": [],
+  "supported_architectures": ["arm64", "amd64"],
+  "created_at": 1761839687,
+  "updated_at": 1761839687,
+  "min_tipi_version": "4.5.0"
+}
